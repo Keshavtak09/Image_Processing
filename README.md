@@ -45,15 +45,49 @@ To understand how histogram equalization works internally and how contrast enhan
 
 ---
 
+## 3. Bit Plane Slicing
+This program demonstrates bit plane slicing of a grayscale image.
+
+### Tasks Covered
+- Reading grayscale image
+- Extraction of bit planes from 0th bit to 7th bit
+- Display of individual bit plane images
+- Removal of selected bit planes from the original image
+
+---
+
+## 4. Wavelet Transform
+This program demonstrates wavelet transform on an image.
+
+### Tasks Covered
+- Reading RGB image
+- Conversion of RGB image to grayscale
+- Application of 2D wavelet transform
+- Display of wavelet transformed images
+- Reconstruction of image using inverse wavelet transform
+
+---
+
+## 5. Tambola Ticket Generation
+This program demonstrates Tambola ticket generation using MATLAB.
+
+### Tasks Covered
+- Creation of a 3×9 matrix structure
+- Ensuring each row contains exactly 5 numbers
+- Ensuring no column is empty
+- Assigning valid number ranges to each column
+- Sorting numbers in ascending order
+
+---
+
 ## Requirements
 - MATLAB
 - Image Processing Toolbox
 
 ## How to Run
-1. Place the required image files (`car.png`, `input.jpg`) in the same folder as the MATLAB scripts.
+1. Place the required image files (`car.png`,`input.jpg`,`sid.jpeg`,`cameraman.tif`) in the same folder as the MATLAB scripts.
 2. Open the scripts in MATLAB.
 3. Run the files to view outputs.
 
 ## Output
 The programs display original and processed images for visual comparison.
-
