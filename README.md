@@ -80,6 +80,24 @@ This program demonstrates Tambola ticket generation using MATLAB.
 
 ---
 
+## 6. Huffman Encoding
+This program demonstrates Huffman Encoding using MATLAB.
+
+### Tasks Covered
+- Definition of symbols and their probabilities
+- Construction of Huffman tree based on probabilities
+- Generation of Huffman codes using recursive traversal
+- Display of Huffman codes for each symbol
+- Calculation of average code length
+
+### Concepts Used
+- Lossless data compression
+- Probability-based encoding
+- Binary tree construction
+- Recursive algorithms
+
+---
+
 ## Requirements
 - MATLAB
 - Image Processing Toolbox
